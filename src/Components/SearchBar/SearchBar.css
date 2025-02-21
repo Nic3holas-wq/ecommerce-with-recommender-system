@@ -1,0 +1,52 @@
+.container-searchbar {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center; /* Center the search bar */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-container input {
+    width: 500px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none; /* Removes the default focus outline */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-container input:focus {
+    border: none; /* Removes border when focused */
+}
+
+/* Updated Search Button */
+.search-button {
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #59FF00, #00EA64);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center icon and text */
+    gap: 8px;
+    padding: 10px; /* Adds spacing inside */
+    cursor: pointer;
+}
+
+/* Adjusts the icon size */
+.search-button svg {
+    font-size: 28px !important;
+}
