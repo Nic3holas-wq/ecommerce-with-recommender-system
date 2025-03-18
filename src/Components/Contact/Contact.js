@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Contact.css";
 import Navigation from "../Navigation/Navigation";
 import Footer from "../Footer/Footer";
+import { toast, ToastContainer } from "react-toastify";
 
 const Contact = () => {
+  // Load user from localStorage
+  const storedUser = JSON.parse(localStorage.getItem("user")) || {};
+  const [user, setUser] = useState({});
+
+  // Set user state only once after the component mounts
+  useEffect(() => {
+    setUser(storedUser);
+  }, []);
+
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
     message: "",
   });
 
@@ -14,10 +22,57 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("Message sent successfully! Please wait for an email");
+  
+    if (!user.email) {
+      alert("Error: No recipient email found!");
+      return;
+    }
+  
+    const emailData = {
+      recipient: user.email, // Ensure this exists
+      subject: `New message from ${user.displayName || "User"}`, // Subject with user name
+      message: formData.message, // Message content
+    };
+  
+    try {
+      const response = await fetch("http://127.0.0.1:5000/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(emailData),
+      });
+  
+      const data = await response.json();
+      if (response.ok) {
+        toast.success("Message sent successfully!", {
+              position: "top-center",
+              autoClose: 4000,
+              theme: "colored",
+            });
+
+        setFormData({ message: "" }); // Clear only the message field
+      } else {
+        toast.error(`Error: ${data.error}`, {
+          position: "top-center",
+          autoClose: 4000,
+          theme: "colored",
+        });
+        
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("Failed to send the message. Please try again.");
+      toast.error("Failed to send the message. Please try again.", {
+        position: "top-center",
+        autoClose: 4000,
+        theme: "colored",
+      });
+    }
   };
+  
 
   return (
     <div>
@@ -28,9 +83,14 @@ const Contact = () => {
 
         {/* Contact Form */}
         <form className="contact-form" onSubmit={handleSubmit}>
-          <input type="text" name="name" placeholder="Your Name" onChange={handleChange} required />
-          <input type="email" name="email" placeholder="Your Email" onChange={handleChange} required />
-          <textarea name="message" placeholder="Your Message" rows="5" onChange={handleChange} required></textarea>
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
           <button type="submit">Send Message</button>
         </form>
 
@@ -50,6 +110,7 @@ const Contact = () => {
         </div>
       </div>
       <Footer />
+      <ToastContainer/>
     </div>
   );
 };

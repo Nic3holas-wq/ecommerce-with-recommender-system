@@ -1,0 +1,29 @@
+.account-container{
+    display: flex;
+    justify-self: center;
+    height: auto;
+    width: 95%;
+    margin-top: 5%;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+    padding: 4%;
+}
+
+.user-details button{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.recommended-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2%;
+}

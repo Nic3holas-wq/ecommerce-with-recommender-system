@@ -16,11 +16,11 @@ const Home = () => {
     useEffect(() => {
         const fetchInitialData = async () => {
             try {
-                const firstFiveResponse = await fetch("http://127.0.0.1:5000/first-five");
+                const firstFiveResponse = await fetch("http://10.42.0.1:5000/first-five");
                 const firstFiveData = await firstFiveResponse.json();
                 
 
-                const topProductsResponse = await fetch("http://127.0.0.1:5000/all-products");
+                const topProductsResponse = await fetch("http://10.42.0.1:5000/all-products");
                 const topProductsData = await topProductsResponse.json();
                 setTopProducts(topProductsData.slice(0, 5));
 
@@ -44,7 +44,7 @@ const Home = () => {
         if (searchQuery) {
             setIsTyping(true);
             const timeout = setTimeout(() => {
-                fetch(`http://127.0.0.1:5000/recommend?query=${searchQuery}`)
+                fetch(`http://10.42.0.1:5000/recommend?query=${searchQuery}`)
                     .then(response => response.json())
                     .then(data => {
                         const recommendations = Array.isArray(data) && data.length > 0 ? data : [];

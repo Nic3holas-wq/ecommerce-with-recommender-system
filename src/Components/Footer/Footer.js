@@ -12,7 +12,7 @@ const Footer = () => {
       background: "rgb(9,243, 17)", 
       color: "white" 
     }}>
-      © {new Date().getFullYear()} All rights reserved.
+      Ecommerce Shopping © {new Date().getFullYear()} All rights reserved.
     </footer>
   );
 };

@@ -1,0 +1,116 @@
+.payment-container {
+    height: auto;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin: 5% auto;
+    padding: 3%;
+}
+
+.payment-container h2 {
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Shopping List Section */
+.shopping-list {
+    width: 50%;
+}
+
+.shopping-list h3 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+}
+
+/* Shopping Table */
+.shopping-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.shopping-table th, .shopping-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.shopping-table th {
+    background-color: #00EA64;
+    color: white;
+    font-weight: bold;
+}
+
+.shopping-table tfoot td {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Payment Form */
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 35%;
+}
+
+.payment-form input,
+.payment-form select {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 16px;
+}
+
+.payment-form button {
+    background-color: #00EA64;
+    border-radius: 20px;
+    outline: none;
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.payment-form button:hover {
+    background-color: #00C555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .payment-container {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        gap: 2rem;
+        padding: 5%;
+    }
+
+    .shopping-list, .payment-form {
+        width: 100%;
+    }
+
+    .shopping-table {
+        font-size: 14px;
+    }
+}

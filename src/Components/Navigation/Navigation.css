@@ -84,3 +84,16 @@ header {
 .cart-icon{
     color: rgba(0, 0, 0, 0.6);
 }
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.user img{
+  border-radius: 50%;
+  width: 50px;
+}
+.user span {
+  font-size: 18px;
+}

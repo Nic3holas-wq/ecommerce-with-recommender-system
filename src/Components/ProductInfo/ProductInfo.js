@@ -28,7 +28,7 @@ const ProductInfo = () => {
                 setSavedRecommendations(storedRecommendations);
                 setRecentlyViewed(storedRecentlyViewed);
 
-                const response = await fetch(`http://localhost:5000/product/${id}`);
+                const response = await fetch(`http://10.42.0.1:5000/product/${id}`);
                 if (!response.ok) {
                     throw new Error("Product not found");
                 }
