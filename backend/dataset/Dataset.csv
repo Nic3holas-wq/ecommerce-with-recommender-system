@@ -1,0 +1,50 @@
+id,name,brand,price,description,image_url
+1,MacBook Air M2,Apple,200000,Ultra-thin laptop with Apple's M2 chip and Retina display.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/43/8504182/1.jpg?1503
+2,Dell XPS 13,Dell,50000,Premium ultrabook with a 13.4-inch InfinityEdge display.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/36/1779762/1.jpg?9653
+3,HP Spectre x360,HP,190000,Convertible 2-in-1 laptop with touchscreen and stylus support.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/35/8042562/1.jpg?2551
+4,Asus ROG Zephyrus G15,Asus,78000,Gaming laptop with Ryzen 9 and RTX 3070 GPU.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/16/8400072/1.jpg?0294
+5,Lenovo ThinkPad X1 Carbon,Lenovo,90000,Business laptop with lightweight carbon fiber build.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/70/0724603/1.jpg?6385
+6,Samsung Galaxy S22 Ultra,Samsung,150000,Flagship phone with a 108MP camera and S-Pen.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/0180872/1.jpg?4712
+7,iPhone 14 Pro,Apple,200000,Apple's latest iPhone with a 48MP camera and Dynamic Island.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/21/9356662/1.jpg?8092
+8,Google Pixel 7 Pro,Google,45000,Google AI-powered smartphone with an advanced camera.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/10/6629762/1.jpg?4994
+9,OnePlus 11,OnePlus,67000,Flagship OnePlus phone with Snapdragon 8 Gen 2.,https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/64/5322303/1.jpg?4895
+10,Xiaomi Mi 13,Xiaomi,99000,High-performance smartphone with Leica cameras.,https://ke.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/07/9418472/1.jpg?0329
+11,Sony Bravia OLED A80K,Sony,56000,4K OLED TV with HDR and high refresh rate.,https://marvelafrica.co.ke/wp-content/uploads/2024/03/sony-a80k-55-inch-ultra-hd-4k-smart-oled-139-cm-xr55a80k.jpeg
+12,LG C2 OLED,LG,88000,Best OLED TV for movies and gaming with Dolby Vision.,https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/39/7149632/1.jpg?8645
+13,Samsung QN90B Neo QLED,Samsung,100000,4K QLED TV with Quantum HDR and anti-glare screen.,https://files.sophie.co.ke/2022/10/in-qled-qn90b-qa55qn90baklxl-532162577_9896.png
+14,TCL 6-Series Roku TV,TCL,43000,Affordable 4K HDR TV with QLED and Roku OS.,https://tvguru.co.ke/wp-content/uploads/2024/05/65C655-C655-QLED-PRO-700x932.webp
+15,Hisense U8H,Hisense,77000,High-brightness 4K TV with Google TV support.,https://kantronics.co.ke/wp-content/uploads/2024/04/U80H.webp
+16,Apple iPad Pro M2,Apple,30000,Powerful tablet with M2 chip and 120Hz display.,https://marvelafrica.co.ke/wp-content/uploads/2024/03/apple-ipad-11-pro-m2-chip-2022.jpg
+17,Samsung Galaxy Tab S8,Samsung,89000,Android flagship tablet with S-Pen and AMOLED screen.,https://kantronics.co.ke/wp-content/uploads/2024/11/Samsung-Galaxy-Tab-S10-Ultra-jpg.avif
+18,Microsoft Surface Pro 9,Microsoft,34000,Detachable Windows tablet with Intel 12th Gen CPU.,https://kantronics.co.ke/wp-content/uploads/2024/04/microsoft-surface_pro_9.jpg
+19,Lenovo Yoga Tab 13,Lenovo,90000,Premium Android tablet with built-in kickstand.,https://divinetechcomputerske.co.ke/wp-content/uploads/2024/09/Lenovo-81CU0009US-Yoga-730-15-6-FHD-Touchscreen-i7-8550U-1-8GHz-8GB-RAM-256GB-SSD-Win-10-Home-Black_58ff2e8d-4cf7-4527-8c4d-b454ccbd4671_1.24bea7ed30953bcd05b43d62ec586db4.webp
+20,Amazon Fire HD 10,Amazon,87000,Affordable media consumption tablet with Alexa integration.,https://kantronics.co.ke/wp-content/uploads/2024/04/Amazon-Fire-HD-10-a.jpg
+21,Sony PlayStation 5,Sony,80000,Next-gen gaming console with ultra-fast SSD.,https://dealerstore.co.ke/wp-content/uploads/2024/10/PS5-PLUS-FC25.webp
+22,Xbox Series X,Microsoft,60000,Most powerful Xbox with 4K gaming and Game Pass.,https://phonesstorekenya.com/wp-content/uploads/2024/02/Xbox-Series-X.jpg
+23,Nintendo Switch OLED,Nintendo,76000,Hybrid gaming console with a vibrant OLED screen.,https://kantronics.co.ke/wp-content/uploads/2024/04/Nintendo-Switch-OLED-Model.jpg
+24,Razer Blade 15,Razer,430000,High-end gaming laptop with RTX 3080 and 360Hz display.,https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fsaruk-web-images.s3.eu-north-1.amazonaws.com%2F32691664804397.jpg&w=640&q=75
+25,Asus TUF Gaming F15,Asus,200000,Durable gaming laptop with high-refresh-rate display.,https://saruk.co.ke/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdm0idgzwi%2Fimage%2Fupload%2Fv1709834613%2Fwgqv1l61f1g7jrvys1gr.jpg&w=640&q=75
+26,Corsair K95 RGB Platinum,Corsair,21000,Mechanical gaming keyboard with customizable RGB.,https://marvelafrica.co.ke/wp-content/uploads/2023/02/H22029acdae324cea83e33c809baf8107W.jpg_960x960.webp
+27,Logitech G Pro X Superlight,Logitech,22000,Lightweight wireless gaming mouse with Hero sensor.,https://saruk.co.ke/_next/image?url=https%3A%2F%2Fsaruk-web-images.s3.eu-north-1.amazonaws.com%2FLogitech%2520MX%2520Master%25203S%2520Advanced%2520Wireless%2520Mouse%25204000%2520DPI%2520Customization%2520USB-C%2520Bluetooth%2520USB%2520.jpeg&w=640&q=75
+28,HyperX Cloud II,HyperX,20000,Comfortable gaming headset with surround sound support.,https://i0.wp.com/esgaming.co.ke/wp-content/uploads/2024/06/HyperX-Cloud-II-gaming-headphones-2.webp?w=720&ssl=1
+29,SteelSeries Arctis 7,SteelSeries,15000,Wireless gaming headset with long battery life.,https://files.sophie.co.ke/2024/06/1569562348_3674_6611.webp
+30,Apple AirPods Pro 2,Apple,15000,Noise-canceling wireless earbuds with spatial audio.,https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fsaruk-web-images.s3.eu-north-1.amazonaws.com%2FApple%2520AirPods%2520Pro%25202nd%2520Gen%2520Wireless%2520Earbuds%2520Up%2520to%25202X%2520More%2520Active%2520Noise%2520Cancelling%2520Adaptive%2520Transparency%2520Personalized%2520Spatial%2520Audio%2520MagSafe%2520Charging%2520Case%2520Bluetooth-%2520Original2.jpeg&w=640&q=75
+31,Sony WH-1000XM5,Sony,34000,Best-in-class noise-canceling wireless headphones.,https://kantronics.co.ke/wp-content/uploads/2024/05/sony-wf-1000xm5.webp
+32,Bose QuietComfort 45,Bose,10000,Premium noise-canceling headphones for travel.,https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fsaruk-web-images.s3.eu-north-1.amazonaws.com%2FScreenshot%25202024-06-01%2520at%252013.41.52.png&w=640&q=75
+33,JBL Flip 6,JBL,9000,Portable Bluetooth speaker with deep bass.,https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdm0idgzwi%2Fimage%2Fupload%2Fv1706648494%2Fjzdgqdr5iqjezw8i6uys.jpg&w=640&q=75
+34,Amazon Echo Dot 5th Gen,Amazon,11000,Smart speaker with Alexa voice control.,https://kantronics.co.ke/wp-content/uploads/2024/04/amazon_echo_dot_5th_generation.jpg
+35,Google Nest Hub,Google,50000,Smart display with Google Assistant.,https://phoneshopkenya.co.ke/wp-content/uploads/2024/05/Google-Nest-Hub-Phone-Shop-Kenya.jpg
+36,Apple Mac Mini M2,Apple,240000,Compact desktop with Apple's M2 chip.,https://kantronics.co.ke/wp-content/uploads/2024/04/mac-mini.jpg
+37,Dell Alienware Aurora R15,Dell,300000,High-end gaming desktop with RTX 4090.,https://m.media-amazon.com/images/I/611DOCt2zIL._AC_SL1500_.jpg
+38,HP Envy Desktop,HP,45000,Affordable desktop with Intel Core i7 and 16GB RAM.,https://www.fgee.co.ke/wp-content/uploads/2024/07/Untitled-design-2024-07-10T134252.940.png
+39,Lenovo Legion Tower 5,Lenovo,130000,Gaming PC with AMD Ryzen and RTX 3060.,https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fsaruk-web-images.s3.eu-north-1.amazonaws.com%2F4060%2520RTX4.jpeg&w=640&q=75
+40,Raspberry Pi 4,Raspberry Pi,6000,Mini-computer for DIY projects and programming.,https://cdn11.bigcommerce.com/s-e7ighpotvb/images/stencil/1280x1280/products/129/408/EVE-MINI-PCIe-HAT__02292__14051.1686596371.jpg?c=1
+41,Seagate 2TB External HDD,Seagate,10000,Portable hard drive for extra storage.,https://www.saruk.co.ke/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdm0idgzwi%2Fimage%2Fupload%2Fv1707775070%2Fzqwefsliwpcsmf9zydme.jpg&w=640&q=75
+42,Samsung T7 SSD 1TB,Samsung,7000,High-speed portable SSD with USB-C.,https://cdnattic.atticbooks.co.ke/img/P314955.jpg
+43,WD Black SN850 2TB,Western Digital,100000,NVMe SSD for high-performance gaming.,https://www.innovativecomputers.co.ke/cdn/shop/files/nm620-slider-2TB-1-1.jpg?v=1729491874&width=1426
+44,LG UltraFine 5K Monitor,LG,80000,5K resolution monitor for professionals.,https://www.instok.co.ke/image/cache/products/d97df150aeb10281fef09028e4d07108-600x600.jpg
+45,BenQ EX3501R,BenQ,56000,Ultrawide curved monitor for gaming and productivity.,https://futuretechnologies.co.ke/wp-content/uploads/2024/08/Samsung-890-Series-34-1-3-AAA.jpg
+46,Elgato Stream Deck,Elgato,45000,Customizable controller for streamers.,"https://res.cloudinary.com/elgato-pwa/image/upload/q_auto,f_auto/v1679475550/Products/10GBA9901/above-the-fold/desktop/mk.2-black-01_seyirh.jpg"
+47,GoPro Hero 11,GoPro,170000,4K action camera with waterproof design.,https://cycleafricabikes.com/wp-content/uploads/2024/08/Go-Pro-Hero-11-b.jpg
+48,DJI Mini 3 Pro,DJI,300000,Compact drone with 4K video and gimbal stabilization.,https://kantronics.co.ke/wp-content/uploads/2024/04/dji-mini-4-pro.jpg
+49,Canon EOS R6,Canon,210000,Full-frame mirrorless camera for photography.,https://kantronics.co.ke/wp-content/uploads/2024/04/canon_eos_r6_mark_ii.jpg
