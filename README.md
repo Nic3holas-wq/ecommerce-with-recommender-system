@@ -10,6 +10,7 @@ A modern, user-friendly ecommerce web application built with **React**, featurin
 - 🧾 Cart Management – Add, view, and remove items from your cart effortlessly.
 - 💳 Lipa na M-Pesa Integration – Seamless mobile payments powered by the Daraja API.
 - 🔐 Authentication - SIgn in with Google
+- 📧 Email Push Notifications
 - 🌐 Responsive Design – Optimized for desktop, tablet, and mobile devices.
 - ⚡ Smooth Performance – Fast loading and interactive UI for a better user experience.
 
@@ -22,7 +23,7 @@ The recommender system is designed to enhance user engagement by showing:
 - Recently viewed items
 - Category-based suggestions (content-based filtering)
 
-## 🚀 Live Demo 
+## 🚀 Screenshots
 📸 [Screenshots](./screenshots)
 
 ## 📸 Screenshots
