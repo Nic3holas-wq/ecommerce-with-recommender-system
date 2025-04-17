@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🛒 Ecommerce Website with Recommender System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, user-friendly ecommerce web application built with **React**, featuring a personalized **product recommender system** to enhance the shopping experience. This project is aimed at demonstrating both frontend design skills and the logic behind product recommendations.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- 🛍️ Browse and search for products
+- 🧠 Personalized product recommendations
+- 🔍 Product filtering
+- 🧾 Add to cart / checkout interface
+- 🌐 Responsive UI (works on all devices)
+- ⚡ Fast and smooth user experience
 
-### `npm start`
+## 🧠 How the Recommender System Works
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> _"People buy what they see"_ — and this project ensures the right products are seen.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The recommender system is designed to enhance user engagement by showing:
+- Popular products
+- Recently viewed items
+- Category-based suggestions (content-based filtering)
 
-### `npm test`
+> Future updates will include collaborative filtering using user purchase history.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Live Demo
 
-### `npm run build`
+🔗 [Live Demo](https://your-deployment-link.com)  
+📸 [Screenshots](#screenshots)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+|<p align="center">
+  <img src="./screenshorts/home.png" width="200" />
+  <img src="./screenshorts/recentlyviewed.png" width="200" />
+  <img src="./screenshorts/cart.png" width="200" />
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <img src="./screenshorts/productdetails.png" width="200" />
+  <img src="./screenshorts/suggested.png" width="200" />
+  <img src="./screenshorts/payment.png" width="200" />
+</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Frontend:** React, JavaScript, CSS
+- **Routing:** React Router
+- **State Management:** React useState / useEffect
+- **Icons:** React Icons
+- **Backend :** Flask, Daraja API
+- **Recommendation Engine:** Currently client-side; backend model coming soon
 
-## Learn More
+## 🧑‍💻 Getting Started
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Nic3holas-wq/ecommerce-with-recommender-system.git
+cd ecommerce-with-recommender-system
