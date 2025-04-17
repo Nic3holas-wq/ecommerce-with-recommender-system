@@ -9,6 +9,7 @@ A modern, user-friendly ecommerce web application built with **React**, featurin
 - 🔍 Advanced Filtering – Filter products by category for a streamlined shopping experience.
 - 🧾 Cart Management – Add, view, and remove items from your cart effortlessly.
 - 💳 Lipa na M-Pesa Integration – Seamless mobile payments powered by the Daraja API.
+- 🔐 Authentication - SIgn in with Google
 - 🌐 Responsive Design – Optimized for desktop, tablet, and mobile devices.
 - ⚡ Smooth Performance – Fast loading and interactive UI for a better user experience.
 
@@ -21,10 +22,8 @@ The recommender system is designed to enhance user engagement by showing:
 - Recently viewed items
 - Category-based suggestions (content-based filtering)
 
-## 🚀 Live Demo
-
-🔗 [Live Demo](https://your-deployment-link.com)  
-📸 [Screenshots](#screenshots)
+## 🚀 Live Demo 
+📸 [Screenshots](./screenshots)
 
 ## 📸 Screenshots
 
@@ -42,7 +41,7 @@ The recommender system is designed to enhance user engagement by showing:
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** React, JavaScript, CSS
+- **Frontend:** React, JavaScript, Bootstrao
 - **Routing:** React Router
 - **State Management:** React useState / useEffect
 - **Icons:** React Icons
