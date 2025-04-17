@@ -9,7 +9,6 @@ import os
 import base64
 import requests
 from datetime import datetime
-import africastalking
 
 # Load dataset
 df = pd.read_csv("./Dataset.csv")
@@ -31,14 +30,6 @@ except:
 # Flask API setup
 app = Flask(__name__)
 CORS(app)
-
-# Africa's Talking API Credentials
-USERNAME = "sandbox"  # Use "sandbox" for testing or your app username in production
-API_KEY = "atsk_517d27a3e31be4ee7a41b2a019b062e0af63e60b2d6414206a4a020e5dad48afbb67cd4b"  # Replace with your API key
-
-# Initialize Africa's Talking
-africastalking.initialize(USERNAME, API_KEY)
-sms = africastalking.SMS
 
 @app.route("/send_sms", methods=["POST"])
 def send_sms():
@@ -67,8 +58,8 @@ payment_status = {}
 # Flask-Mail Configuration
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
-app.config['MAIL_USERNAME'] = "nicholasmurimi254@gmail.com"  # Use environment variables
-app.config['MAIL_PASSWORD'] = "fuabzrnnuzehxvqh"  # Use environment variables
+app.config['MAIL_USERNAME'] = [USERNAME]  # Use environment variables
+app.config['MAIL_PASSWORD'] = [PASSWORD]  # Use environment variables
 app.config['MAIL_USE_TLS'] = False  
 app.config['MAIL_USE_SSL'] = True  
 app.config['MAIL_DEFAULT_SENDER'] = app.config['MAIL_USERNAME']  # Set default sender
@@ -100,11 +91,11 @@ def send_email():
 
 # M-Pesa API credentials
 # Safaricom MPESA credentials
-CONSUMER_KEY = "QGaxjls5hBgmsKtpvv4cq8H8Axilo5Ax3Q9vnxm6BTxrn7bD"
-CONSUMER_SECRET = "4hDp8S8qAbn8HP3B6BD8BV3Gbr26G6xjB525fSuAhtUDXwGA0tyWm2ssJrlUF0Cz"
-SHORTCODE = "174379"
-PASSKEY = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"
-CALLBACK_URL = "https://bb30-41-209-10-178.ngrok-free.app/confirmation"
+CONSUMER_KEY =< CONSUMER_KEY>
+CONSUMER_SECRET = <CONSUMER_SECRET>
+SHORTCODE = <SHORTCODE>
+PASSKEY = <PASSKEY>
+CALLBACK_URL = <YOUR CALLBACK URL>
 
 # Function to get access token
 def get_access_token():
