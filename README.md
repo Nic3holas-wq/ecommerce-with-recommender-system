@@ -5,11 +5,12 @@ A modern, user-friendly ecommerce web application built with **React**, featurin
 ## 🌟 Features
 
 - 🛍️ Browse and search for products
-- 🧠 Personalized product recommendations
-- 🔍 Product filtering
-- 🧾 Add to cart / checkout interface
-- 🌐 Responsive UI (works on all devices)
-- ⚡ Fast and smooth user experience
+- 🧠 Smart Recommendations – Get personalized product suggestions based on behavior and preferences.
+- 🔍 Advanced Filtering – Filter products by category for a streamlined shopping experience.
+- 🧾 Cart Management – Add, view, and remove items from your cart effortlessly.
+- 💳 Lipa na M-Pesa Integration – Seamless mobile payments powered by the Daraja API.
+- 🌐 Responsive Design – Optimized for desktop, tablet, and mobile devices.
+- ⚡ Smooth Performance – Fast loading and interactive UI for a better user experience.
 
 ## 🧠 How the Recommender System Works
 
