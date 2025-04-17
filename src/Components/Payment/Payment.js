@@ -3,6 +3,7 @@ import "./Payment.css";
 import { toast, ToastContainer } from "react-toastify";
 import Footer from "../Footer/Footer";
 import { useNavigate } from "react-router-dom"; 
+import axios from "axios";
 
 const Payment = () => {
   const [phone, setPhone] = useState("");
@@ -12,6 +13,9 @@ const Payment = () => {
   const navigate = useNavigate();
   const [cartItems, setCartItems] = useState([]);
   const [user, setUser] = useState([]);
+  // const [phoneNumber, setPhoneNumber] = useState("+254746982439");
+  // const [textmessage, settextMessage] = useState("Hello good afternoon");
+  // const [response, setResponse] = useState("");
 
   useEffect(() => {
     const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -20,6 +24,31 @@ const Payment = () => {
     setUser(storedUser);
     setCartItems(storedCart);
   }, []);
+
+
+  // const sendSMS = async (e) => {
+  //   e.preventDefault();
+
+  //   if (!phoneNumber || !textmessage) {
+  //       toast.error("Please enter a phone number and message");
+  //       return;
+  //   }
+
+  //   try {
+  //     const res = await axios.post("http://127.0.0.1:5000/send_sms", {
+  //       to: phoneNumber,
+  //       message: textmessage,
+  //     });
+
+  //     setResponse(res.data.message);
+  //     toast.success("SMS sent successfully!");
+  //   } catch (error) {
+  //     const errorMsg = error.response?.data?.error || "Failed to send SMS";
+  //     setResponse("Error: " + errorMsg);
+  //     toast.error(errorMsg);
+  //   }
+  // };
+
 
   //function to send email to the user
   const sendCartEmail = async () => {
@@ -243,6 +272,7 @@ const Payment = () => {
             <p>No items in the cart</p>
           )}
         </div>
+
 
         {/* Payment Form */}
         <div className="payment-form">
