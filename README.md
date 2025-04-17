@@ -21,8 +21,6 @@ The recommender system is designed to enhance user engagement by showing:
 - Recently viewed items
 - Category-based suggestions (content-based filtering)
 
-> Future updates will include collaborative filtering using user purchase history.
-
 ## 🚀 Live Demo
 
 🔗 [Live Demo](https://your-deployment-link.com)  
@@ -42,9 +40,6 @@ The recommender system is designed to enhance user engagement by showing:
   <img src="./screenshorts/payment.png" width="200" />
 </p>
 
-
-
-
 ## 🛠️ Technologies Used
 
 - **Frontend:** React, JavaScript, CSS
@@ -52,7 +47,7 @@ The recommender system is designed to enhance user engagement by showing:
 - **State Management:** React useState / useEffect
 - **Icons:** React Icons
 - **Backend :** Flask, Daraja API
-- **Recommendation Engine:** Currently client-side; backend model coming soon
+- **Recommendation Engine:** Collaborative Filtering
 
 ## 🧑‍💻 Getting Started
 
