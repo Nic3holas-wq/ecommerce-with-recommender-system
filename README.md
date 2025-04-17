@@ -61,3 +61,33 @@ The recommender system is designed to enhance user engagement by showing:
 ```bash
 git clone https://github.com/Nic3holas-wq/ecommerce-with-recommender-system.git
 cd ecommerce-with-recommender-system
+```
+
+### 2. Install Fronted Dependencies
+Make sure you have Node.js and npm installed.
+
+```bash
+cd client
+npm install
+```
+### 3. Start the Fronted Development server
+Make sure you have Node.js and npm installed.
+
+```bash
+npm start
+```
+This will run the frontend on http://localhost:3000.
+
+### 4. Setup the Backend(Flask)
+Make sure you have Python 3 and pip installed.
+
+```bash
+cd ../backend
+pip install -r requirements.txt
+```
+
+### 5. Run the Flask Backend
+```bash
+python app.py
+```
+This will start the backend API (usually at http://localhost:5000).
